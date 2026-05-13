@@ -4,9 +4,11 @@ node_modules/
 dist/
 .superpowers/
 .claude/
+.deepseek/
+gh-cli/
+npm/
 2DOF_MPC_Arm/
 PINNs-based-MPC/
 caveman/
 pinn_robot_dynamics/
-npm/
 index.html
