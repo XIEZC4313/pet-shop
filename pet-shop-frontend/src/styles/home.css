@@ -1,0 +1,47 @@
+/* Home page hero banner */
+.hero-banner {
+  padding: 60px 0;
+  position: relative;
+  transition: background 0.5s ease;
+  overflow: hidden;
+}
+
+.banner-dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 24px;
+}
+
+.banner-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.4);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.banner-dot.active {
+  background: white;
+  width: 28px;
+  border-radius: 5px;
+}
+
+/* Pet type cards */
+.pet-type-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 24px 32px;
+  border-radius: 16px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  min-width: 100px;
+}
+
+.pet-type-card:hover {
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+}
