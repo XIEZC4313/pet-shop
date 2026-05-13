@@ -8,7 +8,9 @@
     "start": "node src/app.js",
     "prisma:generate": "prisma generate",
     "prisma:migrate": "prisma migrate dev",
-    "prisma:seed": "node prisma/seed.js"
+    "prisma:migrate:deploy": "prisma migrate deploy",
+    "prisma:seed": "node prisma/seed.js",
+    "db:setup": "prisma migrate deploy && node prisma/seed.js"
   },
   "keywords": [
     "pet-shop",
