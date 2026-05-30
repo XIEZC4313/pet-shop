@@ -1,0 +1,17 @@
+node_modules/
+.env
+*.db
+dist/
+.superpowers/
+.claude/
+.deepseek/
+gh-cli/
+npm/
+2DOF_MPC_Arm/
+PINNs-based-MPC/
+caveman/
+pinn_robot_dynamics/
+ai-chatbot/
+pet-shop-v2/
+index.html
+star-*.html
